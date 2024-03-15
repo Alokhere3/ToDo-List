@@ -1,0 +1,56 @@
+.inputarea{
+width: 345px;
+height: 50px;
+border-radius: 20px;
+    position: absolute;
+    background-color: rgb(56, 54, 54);
+    border: none;
+    font-weight: bolde;
+    color: aliceblue;
+    padding-left: 20px;
+
+}
+.main1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.inputlabe{
+    position: absolute;
+
+padding: 10px;
+padding-left: 25px;
+color: white;
+}
+.btn{
+    display: flex;
+    border: none;
+    margin-left: 300px;
+    margin-top: 10px;
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 193, 233);
+   
+}
+input:focus~label
+
+{
+    
+
+   transform: translateY(-35%);
+
+
+    
+}
+input:valid~label{
+color:green;
+    transform: translateY(-35%);
+}
+
+input:valid~button{
+       background-color: green;
+    }
